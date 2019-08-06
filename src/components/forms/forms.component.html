@@ -1,0 +1,62 @@
+<div class="container">
+  <div class="square">
+    <h5 >Crear Cuenta</h5>
+    <form>
+      <div class="form-row">
+        <div class="form-group col-md-6">
+          <label for="inputNombre">Nombres</label>
+          <input
+            type="text"
+            class="form-control"
+            id="inputNombre"
+            placeholder="Nombres"
+          />
+        </div>
+        <div class="form-group col-md-6">
+          <label for="inputApellido">Apellidos</label>
+          <input
+            type="text"
+            class="form-control"
+            id="inputApellido"
+            placeholder="Apellidos"
+          />
+        </div>
+      </div>
+      <div class="form-row">
+        <div class="form-group col-md-6">
+          <label for="inputEmail4">Email</label>
+          <input
+            type="email"
+            class="form-control"
+            id="inputEmail4"
+            placeholder="Email"
+          />
+        </div>
+        <div class="form-group col-md-6">
+          <label for="inputPassword4">Contraseña</label>
+          <input
+            type="password"
+            class="form-control"
+            id="inputPassword4"
+            placeholder="Password"
+          />
+        </div>
+      </div>
+      <div class="form-row">
+        <div class="form-group col-md-6">
+          <label for="inputCity">Ciudad</label>
+          <input
+            type="text"
+            class="form-control"
+            id="inputCity"
+            placeholder="Ciudad"
+          />
+        </div>
+      </div>
+      <button type="button" class="btn btn-primary btn-lg btn-block"><a  class ="font-button"[routerLink]="['/login']">Registrarme</a></button>
+    </form>
+
+    <router-outlet></router-outlet>
+    
+  </div>
+</div>

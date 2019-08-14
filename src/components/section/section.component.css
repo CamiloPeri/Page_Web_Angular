@@ -6,6 +6,11 @@
     background-color: cadetblue;
 
 }
+.card-3{
+    background-color: red;
+
+    border:2px solid black;
+}
 
 #btn-menu{
     display:none;
@@ -45,9 +50,8 @@ label:hover{
 .links:hover{
 display: block;
 cursor: pointer;
-
-
 }
+
 
 
 .links:hover::after{
@@ -80,5 +84,6 @@ label{
     margin: 0;
 
 }
+
 
 }
